@@ -7,7 +7,7 @@ from predict import load_model, predict
 # Load models
 
 
-MODELS = ["Model XGBoost GridSearch", "Model XGBoost PSO", "Model XGBoost Default"
+MODELS = ["Model XGBoost Default", "Model XGBoost GridSearch", "Model XGBoost PSO",
           "Model LSTM Adam", "Model LSTM RMSprop"]
 
 
