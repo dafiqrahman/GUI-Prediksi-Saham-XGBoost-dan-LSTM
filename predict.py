@@ -19,7 +19,7 @@ def load_model(model_name):
 
     if model_path.endswith(".pkl"):
         return pickle.load(open(model_path, "rb"))
-    elif model_path.endswith(".h5"):
+    elif model_path.endswith(".keras"):
         return tf.keras.models.load_model(model_path)
     else:
         raise ValueError("Unsupported model format.")
