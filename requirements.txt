@@ -1,5 +1,4 @@
-python == 3.10
-tensorflow == 2.10.1
+tensorflow
 scikit-learn
 numpy
 pandas
