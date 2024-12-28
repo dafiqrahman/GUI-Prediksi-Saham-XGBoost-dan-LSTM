@@ -7,7 +7,7 @@ from predict import load_model, predict
 # Load models
 
 
-MODELS = ["Model XGBoost GridSearch", "Model XGBoost PSO",
+MODELS = ["Model XGBoost GridSearch", "Model XGBoost PSO", "Model XGBoost Default"
           "Model LSTM Adam", "Model LSTM RMSprop"]
 
 
@@ -46,6 +46,24 @@ elif selected_model_name == "Model XGBoost GridSearch":
     Mean Absolute Error (MAE): 22.57
     Mean Absolute Percentage Error (MAPE): 1.50
     R-squared: 0.98
+''')
+
+elif selected_model_name == "Model XGBoost PSO":
+    st.text('''
+    Mean Squared Error (MSE): 925.0080253001507
+    Root Mean Squared Error (RMSE): 30.413944586326693
+    Mean Absolute Error (MAE): 22.456805170798788
+    Mean Absolute Percentage Error (MAPE): 1.4949884698803528
+    R-squared: 0.9843424448553131
+''')
+
+elif selected_model_name == "Model XGBoost Default":
+    st.text('''
+    Mean Squared Error (MSE): 1406.367046204681
+    Root Mean Squared Error (RMSE): 37.501560583590134
+    Mean Absolute Error (MAE): 27.51816771630527
+    Mean Absolute Percentage Error (MAPE): 1.8396499395483343
+    R-squared: 0.976194509693605 
 ''')
 
 # pass to the function

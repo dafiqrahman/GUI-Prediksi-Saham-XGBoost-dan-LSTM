@@ -6,8 +6,9 @@ import pickle
 
 
 MODELS_PATH = {
+    "Model XGBoost Default": "models/model_xgboost.pkl",
     "Model XGBoost GridSearch": "models/xgboost_model_gridsearch.pkl",
-    "Model XGBoost PSO": "models/xgboost_model_gridsearch.pkl",
+    "Model XGBoost PSO": "models/model_xgboost_pso.pkl",
     "Model LSTM Adam": "models/model_lstm_adam.keras",
     "Model LSTM RMSprop": "models/model_lstm_rmsprop.keras"
 }
